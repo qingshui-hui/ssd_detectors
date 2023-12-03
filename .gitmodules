@@ -1,0 +1,3 @@
+[submodule "models/ssd512_cars"]
+	path = models/ssd512_cars
+	url = https://huggingface.co/saiki987/ssd512_cars
