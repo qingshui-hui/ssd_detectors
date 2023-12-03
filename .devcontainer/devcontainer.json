@@ -18,6 +18,7 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
+				"eamodio.gitlens",
 				"donjayamanne.python-extension-pack",
 				"ms-toolsai.jupyter"
 			]
