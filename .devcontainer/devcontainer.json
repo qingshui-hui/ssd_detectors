@@ -4,9 +4,12 @@
 	"name": "Keras SSD",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "saiki987/keras_ssd:2.6.0",
+	"runArgs": ["--name", "ssd_detectors"],
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
+	// "features": {
+	// 	"ghcr.io/devcontainers/features/git-lfs:1": {}
+	// },
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
