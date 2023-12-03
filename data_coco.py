@@ -19,8 +19,8 @@ class GTUtility(BaseGTUtility):
             gt_path = os.path.join(data_path, 'annotations', 'instances_val2014.json')
             image_path = os.path.join(data_path, 'val2014')
         else:
-            gt_path = os.path.join(data_path, 'annotations', 'instances_train2014.json')
-            image_path = os.path.join(data_path, 'train2014')
+            gt_path = os.path.join(data_path, '_annotations.coco.json')
+            image_path = os.path.join(data_path)
         self.gt_path = gt_path
         self.image_path = image_path
         
