@@ -48,7 +48,7 @@ def load_weights(model, filepath, layer_names=None):
             name_model = name[1]
             name_file = name[0]
         else:
-            name_model = str(name, 'utf-8')
+            name_model = str(name)
             name_file = name
         g = f[name_file]
         weights = [np.array(g[wn]) for wn in g.attrs['weight_names']]

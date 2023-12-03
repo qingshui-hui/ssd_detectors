@@ -1,0 +1,14 @@
+numpy
+matplotlib
+scipy
+pandas
+jupyter
+tensorflow==2.6.0
+keras==2.6.0
+protobuf==3.20.1 # https://protobuf.dev/news/2022-05-06/#python-updates
+opencv-python==4.5.2.54
+tqdm==4.61.1
+imageio==2.9.0
+editdistance
+pyclipper
+h5py
