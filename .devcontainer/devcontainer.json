@@ -4,7 +4,7 @@
 	"name": "Keras SSD",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "saiki987/keras_ssd:2.6.0",
-	"runArgs": ["--name", "ssd_detectors"],
+	// "runArgs": ["--name", "ssd_detectors"],
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {
